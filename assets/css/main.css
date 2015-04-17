@@ -8,6 +8,12 @@ body {
     color: #333;
 }
 
+body {
+  font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 ::selection {
     background: #222;
     color: white;
@@ -119,7 +125,7 @@ ul, ol {
     max-width: 500px;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     .sidebar {
         padding: 0 40px;
     }
